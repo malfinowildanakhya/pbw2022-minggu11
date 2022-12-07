@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <meta charset="UTF-8">
+    <title>Belajar Array JavaScript</title>
+</head>
+<body>
+    <script>              
+        document.write('<table border=1><tr><td>No</td><td>Menu</td></tr>');
+        let menu = ['Nasi Goreng', 'Ayam Kecap', 'Ayam Goreng', 'Mie Pedas'];
+        let number = 1;
+        var  element = '';
+        for (let i = 0; i < menu.length; i++) {
+            var element = '<tr><td>' + number++ + '</td>'+'<td>'+menu[i]+'</td></tr>';            
+            document.write(element);            
+            }
+        document.write('<table>');                   
+    </script>
+</body>
+</html>
